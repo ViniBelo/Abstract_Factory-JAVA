@@ -4,6 +4,6 @@ import buttons.Button;
 import checkboxes.Checkbox;
 
 public interface GUIFactory {
-    public Button createButton();
-    public Checkbox createCheckbox();
+    Button createButton();
+    Checkbox createCheckbox();
 }
